@@ -1,0 +1,2 @@
+# Pinterest Clone Project
+- before starting project i go through some concepts like data association -> linking one model to other model via thier id's known as data association, so that we can establise a relation between them.
