@@ -11,16 +11,20 @@
     <div class="content">
       <!--pinterest logo-->
       <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="img1" />
-      <p class="header">Log in to see more</p>
+      <p class="header">Make account to see more</p>
 
-      <input type="email" name="email" placeholder="Email" class="detail" /><br />
-      <input type="text" name="username" placeholder="Username" class="detail" /><br />
-      <input type="text" name="fullname" placeholder="Full Name" class="detail" /><br />
-      <input type="password" placeholder="Password" class="detail" />
+      <form action="/register" method="post">
 
-      <h4>Forgot your password?</h4>
+        <input type="text" name="fullname" placeholder="Full Name" class="detail" /><br />
+        <input type="text" name="username" placeholder="Username" class="detail" /><br />
+        <input type="email" name="email" placeholder="Email" class="detail" /><br />
+        <input type="password" name="password" placeholder="Password" class="detail" />
+  
+        <a style="text-decoration: none; color: blue;">Forgot your password?</a>
 
-      <button class="btn int">Log in</button>
+        <input type="submit" value="Register Account" class="btn int" />
+
+      </form>
       <p class="or">OR</p>
       <button class="btn fbk">
         <i
@@ -38,16 +42,16 @@
       </button>
 
       <footer>
-        <p>
-          By continuing, you agree to Pinterest's
-          <b>Terms of Service, Privacy policy.</b>
-        </p>
+        <a class="footerlogin" href="/login">Already on Pinterest yet? Login</a>
         <hr />
-        <p>Not on Pinterest yet? Sign up</p>
+        <p>
+        By continuing, you agree to Pinterest's
+        <b>Terms of Service, Privacy policy.</b>
+        </p>
       </footer>
     </div>
   </div>
-  <a class="upbtn">Sign up</a>
+  <a href="/login" class="upbtn">Login</a>
 
 </body>
 </html>

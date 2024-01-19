@@ -9,8 +9,8 @@ body {
 }
 .container {
   background-color: white;
-  width: 480px;
-  height: 650px;
+  width: 400px;
+  height: 550px;
   position: absolute;
   margin: auto;
   top: 2%;
@@ -26,7 +26,7 @@ body {
   margin: auto;
   left: 0;
   right: 0;
-  top: 0;
+  top: -5;
   bottom: 0;
   text-align: center;
 }
@@ -45,7 +45,7 @@ body {
 }
 .detail {
   width: 100%;
-  height: 48px;
+  height: 30px;
   margin: 5px;
   padding: 15px;
   font-size: 15px;
@@ -71,7 +71,7 @@ h4 {
 
 .btn {
   width: 100%;
-  height: 40px;
+  height: 30px;
   border: hidden;
   border-radius: 20px;
   font-size: 18px;
@@ -152,4 +152,8 @@ hr {
   padding: 11px 20px;
   background-color: rgb(241, 236, 236);
   border-radius: 20px;
+}
+.footerlogin{
+  text-decoration: none;
+  color: #df0812;
 }
