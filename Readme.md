@@ -11,3 +11,4 @@
 ### faced error 
 - initial error as i made a route that does nothing a open route and got an error server was crashing took my more than a hour.
 - missed a / in login route.
+- error.length() i used this syntax for array which is wrong, correct is --> error.length 

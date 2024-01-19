@@ -33,7 +33,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 250px;
+    gap: 220px;
   }
   
   .upper-icons svg:hover {
@@ -71,6 +71,7 @@
   }
   
   .social-icon {
+    margin-top: 30px;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -146,5 +147,16 @@
     width: 40px;
     border-radius: 50%;
     box-shadow: inset -2px -2px 3px #ffffff, inset 2px 2px 3px #ceced1;
+  }
+
+  .logout{
+    color: red;
+    background-color: rgb(202, 199, 199);
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
   }
   
