@@ -5,16 +5,76 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  body {
-    height: 100vh;
-    width: 100%;
+  /* body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+  } */
+  .wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     background-color: #c7cccd;
   }
+  .left{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .right{
+    width: 75%;
+  }
+  .uploadFile{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    background-color: #ecf1f2;
+    min-height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  /* .uploadForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } */
   
+  /* Style the form */
+  .uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  /* Style the file input */
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the text input */
+  input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the submit button */
+  button {
+    padding: 10px 15px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
   .box {
     min-height: 380px;
     width: 350px;
@@ -27,7 +87,6 @@
     padding: 30px 30px;
     background-color: #ecf1f2;
   }
-  
   .upper-icons {
     display: flex;
     justify-content: space-between;
@@ -160,3 +219,42 @@
     text-decoration: none;
   }
   
+  /* Style for the card container */
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  background-color: #ecf1f2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px gray;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Style for the card image container */
+.cardimage {
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+/* Style for the card image */
+.cardimage img {
+  margin-top: 10px;
+  width: 180px;
+  height: auto;
+}
+
+/* Style for the card content */
+.filecaption {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
