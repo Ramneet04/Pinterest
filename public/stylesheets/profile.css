@@ -222,6 +222,7 @@
   /* Style for the card container */
 .card {
   width: 250px;
+  min-height: 290px;
   border: 1px solid #ddd;
   background-color: #ecf1f2;
   border-radius: 10px;
@@ -248,7 +249,7 @@
 .cardimage img {
   margin-top: 10px;
   width: 180px;
-  height: auto;
+  min-height: 150px;
 }
 
 /* Style for the card content */
